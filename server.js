@@ -22,7 +22,7 @@ const CONFIG = {
     // Base de datos real en Render
     DB_URL:'postgresql://database_final_project_user:4jwEikmkqCst9WFPeevZuEhdtjtfIoiu@dpg-d4ttnde3jp1c73f51e9g-a.oregon-postgres.render.com:5432/database_final_project?sslmode=require',                                                                                                                                                                                                                                                                                                        
     OLLAMA_URL: 'http://localhost:11434',
-    MODELO: 'qwen3'
+    MODELO: 'qwen3:8b'
 };
 
 // Schema de la base de datos real (para el prompt)
@@ -815,4 +815,5 @@ async function crearAPI() {
 crearAPI().catch(error => {
     console.error('Error:', error.message);
     process.exit(1);
+
 });

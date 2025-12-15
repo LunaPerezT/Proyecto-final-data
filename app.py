@@ -35,7 +35,7 @@ import uuid
 # ============================================
 
 MCP_SERVER_URL = "http://localhost:3000"
-REQUEST_TIMEOUT = 60
+REQUEST_TIMEOUT = 1800
 
 # ============================================
 # INICIALIZAR FLASK
@@ -547,4 +547,5 @@ if __name__ == '__main__':
         debug=True,
         host='0.0.0.0',
         port=5000
+
     )

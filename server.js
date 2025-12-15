@@ -92,7 +92,7 @@ GLOSARIO:
 
 // Palabras clave para graficos
 const PALABRAS_GRAFICO = [
-    'grafico', 'grafica', 'chart', 'visualiza', 'dibuja', 
+    'grafico','gráfico','grafica', 'gráfica','chart', 'visualiza', 'dibuja', 
     'diagrama', 'plot', 'barras', 'lineas', 'pastel', 'pie', 'columnas', 'tarta'
 ];
 
@@ -815,5 +815,4 @@ async function crearAPI() {
 crearAPI().catch(error => {
     console.error('Error:', error.message);
     process.exit(1);
-
 });
